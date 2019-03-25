@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.docpat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DocPat"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name=".Patient.HeartRate"
+            android:parentActivityName=".Patient.PatientMain"/>
+        <activity android:name=".Patient.StepsActivity"
+            android:parentActivityName=".Patient.PatientMain"/>
+        <activity android:name=".Patient.GaugeActivity"
+            android:parentActivityName=".Patient.PatientMain"/>
+        <activity android:name=".Patient.BatteryActivity"
+            android:parentActivityName=".Patient.PatientMain"/>
+        <activity android:name=".Patient.SleepActivity"
+            android:parentActivityName=".Patient.PatientMain"/>
+        <activity android:name=".Patient.PatientLogin"
+            android:parentActivityName=".Patient.PatientMain"/>
+        <activity android:name=".Patient.PatientProfile"
+            android:parentActivityName=".Patient.PatientMain"/>
+        <activity
+            android:name=".Patient.PatientMain"
+            android:label="@string/title_activity_patient_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Patient.PatientRegister" />
+        <activity
+            android:name=".Doctor.DoctorProfile"
+            android:parentActivityName=".Doctor.DoctorMain" />
+        <activity
+            android:name=".Doctor.DoctorMain"
+            android:label="@string/title_activity_doctor_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Doctor.DoctorRegister" />
+        <activity android:name=".Doctor.DoctorLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

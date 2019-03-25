@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">docpat</string>
+    <string name="title_activity_doctor_registration">DoctorRegistration</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_doctor_main">DoctorMainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="degree_prompt">Choose a Degree</string>
+    <string-array name="degree_arrays">
+        <item>MD(Res), DM</item>
+        <item>PhD, DPhi</item>
+        <item>MCM</item>
+        <item>MMSc, MMedSc</item>
+        <item>MM, MMed</item>
+        <item>MPhil</item>
+        <item>MS, MSurg, MChir, MCh, ChM, CM</item>
+        <item>DCM</item>
+        <item>MSc</item>
+        <item>DClinSurg</item>
+        <item>DMSc, DMedSc</item>
+        <item>DS, DSurg</item>
+    </string-array>
+    <string name="title_activity_patient_main">PatientMain</string>
+</resources>
